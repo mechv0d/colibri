@@ -1,0 +1,20 @@
+
+
+.base-wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 0 0;
+    gap: 0;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+
+}
