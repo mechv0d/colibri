@@ -1,0 +1,11 @@
+.top-app-bar {
+    height: auto;
+    width: 100%;
+    padding-bottom: 28px;
+    background-color: var(--md-sys-color-surface);
+}
+
+.headline {
+    width: 100%;
+    padding-left: 24px;
+}

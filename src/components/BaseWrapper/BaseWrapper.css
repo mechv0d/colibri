@@ -1,19 +1,18 @@
-
-
 .base-wrapper {
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 24px 0 0 0;
     gap: 0;
 }
 
 .content {
+    background-color: var(--md-sys-color-surface-container-lowest);
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
     gap: 0;
 

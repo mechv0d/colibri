@@ -1,16 +1,16 @@
 import './BaseWrapper.css'
-import '@material/web/color/_color.scss'
+import TopAppBar from "../Headers/TopAppBar.jsx";
 
 function BaseWrapper(props) {
-    console.log(props)
     return <>
         <div className="base-wrapper">
-        {/*<NavRail></NavRail>*/}
+            {/*<NavRail></NavRail>*/}
             <div className="content">
-                <TopAppBar text="BaseWrapper">
-
-                </TopAppBar>
+                <TopAppBar title_text={props.top_bar_title}/>
+                {props.children}
             </div>
         </div>
     </>
 }
+
+export default BaseWrapper
