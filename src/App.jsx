@@ -1,4 +1,4 @@
-import {useState} from 'react'
+// import {useState} from 'react'
 import './App.css'
 import '@material/web/all.js'
 import BaseWrapper from "./components/BaseWrapper/BaseWrapper.jsx";
@@ -7,7 +7,7 @@ import CircularProgress from "./components/CircularProgress/CircularProgress.jsx
 import Graph from "./components/Graph/Graph.jsx";
 
 function App() {
-    const [count, setCount] = useState(0)
+    // const [count, setCount] = useState(0)
 
     return (
         <>
