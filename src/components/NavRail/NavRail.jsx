@@ -8,7 +8,7 @@ import Icon from '@mdi/react';
 import {mdiFoodApple, mdiFoodVariant, mdiHeartPulse, mdiHome, mdiMenu, mdiPlus} from '@mdi/js';
 import DestinationButton from "./DestinationButton/DestinationButton.jsx";
 
-import {toggleMenu} from "./MenuScript.js"
+// import {toggleMenu} from "./MenuScript.js"
 
 // let menuEl = toggleMenu()
 
