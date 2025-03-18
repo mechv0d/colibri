@@ -1,7 +1,8 @@
 .base-wrapper {
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
     padding: 24px 0 0 0;
     gap: 0;
 }
@@ -9,7 +10,8 @@
 .content {
     background-color: var(--md-sys-color-surface-container-lowest);
     width: 100%;
-    height: auto;
+    height: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;

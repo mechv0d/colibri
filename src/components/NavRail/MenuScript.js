@@ -5,7 +5,6 @@ export function toggleMenu() {
     anchorEl.addEventListener("click", () => {
         menuEl.show();
     });
-    console.log(5543)
     return menuEl;
 }
 

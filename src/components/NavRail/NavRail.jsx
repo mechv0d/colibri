@@ -27,7 +27,7 @@ function NavRail() {
                     <md-menu-item>
                         <div slot="headline">О нас</div>
                     </md-menu-item>
-                    <md-menu-item>
+                    <md-menu-item href={"/contacts"}>
                         <div slot="headline">Контакты</div>
                     </md-menu-item>
                     <md-menu-item>
@@ -41,7 +41,7 @@ function NavRail() {
             </div>
             <div className="nav-rail-destinations">
 
-                <DestinationButton title="Главная" icon={mdiHome}/>
+                <DestinationButton title="Главная" icon={mdiHome} href={"/"}/>
                 <DestinationButton title="Трекер" icon={mdiHeartPulse}/>
                 <DestinationButton title="Блюда" icon={mdiFoodApple}/>
                 <DestinationButton title="Питание" icon={mdiFoodVariant}/>

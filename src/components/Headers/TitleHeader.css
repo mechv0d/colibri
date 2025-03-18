@@ -1,6 +1,7 @@
 .title-header {
     width: 100%;
-    max-width: calc(var(--web-page-max-width) - 24px);
+    box-sizing: border-box;
+    max-width: var(--web-page-max-width);
     height: auto;
     padding: 26px 0 6px 24px;
 }
