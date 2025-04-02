@@ -3,5 +3,6 @@
     box-sizing: border-box;
     max-width: var(--web-page-max-width);
     height: auto;
+    min-height: 60px;
     padding: 26px 0 6px 24px;
 }

@@ -24,7 +24,7 @@ function NavRail() {
                     </md-icon>
                 </md-icon-button>
                 <md-menu id="nav-rail-menu-drop" anchor="nav-rail-menu-anchor">
-                    <md-menu-item>
+                    <md-menu-item href={"/about-us"}>
                         <div slot="headline">О нас</div>
                     </md-menu-item>
                     <md-menu-item href={"/contacts"}>

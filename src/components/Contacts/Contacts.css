@@ -13,6 +13,15 @@
     stroke: var(--md-sys-color-on-surface) !important;
 }
 
+.media-body span {
+    width: fit-content;
+    height: fit-content;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: .01em;
+}
+
 .media-body.contacts {
     gap: 64px;
     padding: 26px 144px 6px 24px;

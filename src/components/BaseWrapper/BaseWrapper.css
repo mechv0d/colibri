@@ -7,7 +7,7 @@
     gap: 0;
 }
 
-.content {
+.base-wrapper .content {
     background-color: var(--md-sys-color-surface-container-lowest);
     width: 100%;
     height: 100%;

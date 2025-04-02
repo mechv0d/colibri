@@ -7,7 +7,7 @@ function create_innerHtml(innerHtml) {
 
 function Graph(props) {
     console.log(props)
-    let values = props.values.reverse()
+    let values = props.values
     let s = []
     values.forEach(v => {
         s.push(`${v*100}%`)

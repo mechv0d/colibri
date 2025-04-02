@@ -3,7 +3,7 @@ import './TitleHeader.css'
 
 function TitleHeader(props) {
     return <>
-        <span className="title-header"><h2 className="md-typescale-title-large">{props.text}</h2></span>
+        <span className="title-header" style={props.style}><h2 className="md-typescale-title-large">{props.text}</h2></span>
     </>
 }
 
