@@ -1,9 +1,7 @@
 import TitleHeader from "../components/Headers/TitleHeader.jsx";
-import MediaWrapper from "../components/Contacts/MediaWrapper/MediaWrapper.jsx";
-import {Twitch, Twitter, Youtube} from "lucide-react";
 import BaseWrapper from "../components/BaseWrapper/BaseWrapper.jsx";
 
-export default function AboutUs(props) {
+export default function AboutUs() {
     return <>
         <BaseWrapper top_bar_title='О нас'>
             <TitleHeader text=""/>
@@ -11,9 +9,6 @@ export default function AboutUs(props) {
                 <span>Работаем с 2017 года</span>
                 <span>Команда из 20 человек</span>
                 <span>Топ #9 в AppStore*</span>
-                {/*<MediaWrapper href={"https://google.com"}> <Youtube width={40} height={40}/></MediaWrapper>*/}
-                {/*<MediaWrapper href={"https://x.com"}> <Twitter width={40} height={40}/></MediaWrapper>*/}
-                {/*<MediaWrapper href={"https://twitch.com"}> <Twitch width={40} height={40}/></MediaWrapper>*/}
 
             </div>
             <TitleHeader text="Колибри" style={{'padding': '56px 24px 6px 24px', 'width': '90px', 'text-align': 'center'}}/>

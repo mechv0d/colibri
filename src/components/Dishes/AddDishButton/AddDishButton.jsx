@@ -2,7 +2,7 @@ import './AddDishButton.css'
 import Icon from '@mdi/react';
 import {mdiPlus} from '@mdi/js';
 
-export default function AddDishButton(props) {
+export default function AddDishButton() {
     return <>
         <div className="dish add-dish">
             <div className="dish-content">

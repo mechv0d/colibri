@@ -35,7 +35,7 @@ function NavRail() {
                     </md-menu-item>
                 </md-menu>
 
-                <md-fab variant="tertiary" lowered aria-label="Edit">
+                <md-fab variant="tertiary" lowered={true} aria-label="Edit">
                     <md-icon slot="icon"><Icon path={mdiPlus} size={1}/></md-icon>
                 </md-fab>
             </div>
