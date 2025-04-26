@@ -9,9 +9,18 @@ import DishList from "./components/Dishes/DishList/DishList.jsx";
 import Dish from "./components/Dishes/Dish/Dish.jsx";
 import DishFrame from "./components/Dishes/DishFrame/DishFrame.jsx";
 import AddDishButton from "./components/Dishes/AddDishButton/AddDishButton.jsx";
+import {useUser} from "./context/UserContext.jsx";
+import {useNavigate} from "react-router-dom";
+import {useEffect} from "react";
 
 function App() {
-    // const [count, setCount] = useState(0)
+    const { user, isAuth } = useUser();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        console.log(user)
+        if (!isAuth) navigate("/auth");
+    }, [isAuth, navigate, user]);
 
     return (
         <>

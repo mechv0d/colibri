@@ -6,6 +6,11 @@ import Root from "./routes/root.jsx";
 import ErrorPage from "./error-page.jsx";
 import Contacts from "./routes/contacts.jsx";
 import AboutUs from "./routes/about_us.jsx";
+import Feedback from "./routes/feedback.jsx";
+import Registration from "./routes/registration.jsx";
+import FillProfile from "./routes/fill-profile.jsx";
+import Auth from "./routes/auth.jsx";
+import {UserProvider} from "./context/UserContext.jsx";
 
 const router = createBrowserRouter([
     {
@@ -21,11 +26,29 @@ const router = createBrowserRouter([
     {
         path: "/about-us",
         element: <AboutUs/>,
+    },
+    {
+        path: "/feedback",
+        element: <Feedback/>,
+    },
+    {
+        path: "/registration",
+        element: <Registration/>,
+    },
+    {
+        path: "/fill-profile",
+        element: <FillProfile/>,
+    },
+    {
+        path: "/auth",
+        element: <Auth/>,
     }
 ]);
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <RouterProvider router={router}/>
+        <UserProvider>
+            <RouterProvider router={router}/>
+        </UserProvider>
     </StrictMode>,
 )
